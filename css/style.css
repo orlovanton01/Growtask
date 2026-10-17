@@ -349,11 +349,23 @@ input, textarea { font: inherit; }
   line-height: 1.2;
 }
 
-/* Кнопки — в ряд */
+/* Степпер + удалить */
 .product__controls {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+/* Нижняя сумма — по центру относительно блока */
+.product__total {
+  width: 100%;
+  display: flex;
+  justify-content: center;     /* по центру */
+  align-items: center;
+  font-size: 13px;
+  color: var(--gray);
+  line-height: 1.2;
+  padding-top: 2px;
 }
 
 /* Плашка − qty + */
