@@ -191,9 +191,6 @@ function bindEvents() {
     }
     const order = collectOrder();
 
-    console.log('📦 Данные заказа:', order);
-    console.table(order.items);
-
     const orderNumber = Math.floor(Math.random() * 900 + 100);
     localStorage.setItem('growtask_order_number', orderNumber);
     localStorage.setItem('growtask_last_order', JSON.stringify(order));

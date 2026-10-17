@@ -112,13 +112,6 @@
     </div>
   </footer>
 
-  <script>
-    // Показываем номер заказа
-    document.getElementById('orderNumber').textContent =
-      localStorage.getItem('growtask_order_number') || '001';
-    // Очищаем корзину после успешного заказа
-    localStorage.removeItem('growtask_cart');
-    localStorage.removeItem('growtask_promo');
-  </script>
+  <script src="js/success.js"></script>
 </body>
 </html>
