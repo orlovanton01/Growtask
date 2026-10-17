@@ -60,13 +60,13 @@ input, textarea { font: inherit; }
 }
 .logo__svg {
   display: block;
-  width: 224px;   /* можно уменьшить для адаптива */
+  width: 224px;
   height: auto;
 }
 
 /* ===== КНОПКА-КОРЗИНА ===== */
 .header__cart {
-  position: relative;               /* для кружка-счётчика */
+  position: relative;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -74,8 +74,8 @@ input, textarea { font: inherit; }
   gap: 1px;
   min-width: 76px;
   padding: 6px 14px;
-  background: #f5f5f5;              /* ← серая плашка */
-  border-radius: 12px;              /* ← скруглённые углы */
+  background: #f5f5f5;
+  border-radius: 12px;
   text-decoration: none;
   transition: background .15s;
   cursor: pointer;
@@ -94,7 +94,7 @@ input, textarea { font: inherit; }
 .header__cart-price {
   font-size: 12px;
   font-weight: 700;
-  color: #A61029;                   /* ← цвет цены */
+  color: #A61029;
   white-space: nowrap;
   line-height: 1.1;
 }
@@ -116,8 +116,8 @@ input, textarea { font: inherit; }
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #fff;    /* белая обводка как в макете */
-  box-sizing: border-box;    /* обязательно */
+  border: 2px solid #fff;
+  box-sizing: border-box;
   white-space: nowrap;       /* чтобы «1 999» не переносилось */
 }
 
@@ -225,7 +225,7 @@ input, textarea { font: inherit; }
   gap: 10px;
   height: 44px;
   padding: 0 18px;
-  background: #f5f5f5;            /* светло-серая плашка */
+  background: #f5f5f5;
   border-radius: 10px;
   font-size: 14px;
   font-weight: 500;
@@ -256,7 +256,7 @@ input, textarea { font: inherit; }
   height: 20px;
   border: 1.5px solid #1a1a1a;
   border-radius: 5px;
-  background: transparent;   /* ← было #fff, теперь прозрачный */
+  background: transparent;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -322,8 +322,8 @@ input, textarea { font: inherit; }
 /* Правый блок — вертикальный стек */
 .product__right {
   display: flex;
-  flex-direction: column;                  /* ← ключевое: столбец */
-  align-items: flex-end;                   /* выравнивание по правому краю */
+  flex-direction: column;
+  align-items: flex-end;
   gap: 10px;
   padding-top: 4px;
 }
@@ -360,7 +360,7 @@ input, textarea { font: inherit; }
 .product__total {
   width: 100%;
   display: flex;
-  justify-content: center;     /* по центру */
+  justify-content: center;
   align-items: center;
   font-size: 13px;
   color: var(--gray);
@@ -499,15 +499,15 @@ input, textarea { font: inherit; }
 
 .product__sku {
   font-size: 12px;
-  color: var(--gray);        /* серый цвет */
-  font-weight: 400;          /* не жирный */
+  color: var(--gray);
+  font-weight: 400;
   line-height: 1.2;
 }
 
 .product__name {
   font-size: 18px;
-  font-weight: 700;          /* жирный */
-  color: #1a1a1a;            /* чёрный */
+  font-weight: 700;
+  color: #1a1a1a;
   margin: 0;
   line-height: 1.25;
 }
@@ -653,7 +653,7 @@ input, textarea { font: inherit; }
 /* ===== ШАПКА СТРАНИЦЫ ОФОРМЛЕНИЯ ===== */
 .checkout-page__head {
   display: flex;
-  align-items: center;               /* центрирование по вертикали */
+  align-items: center; 
   gap: 16px;
   margin-bottom: 24px;
 }
@@ -722,10 +722,10 @@ input, textarea { font: inherit; }
 /* Подсказка с иконкой — разделительные линии сверху и снизу */
 .form__hint {
   display: flex;
-  align-items: center;                 /* SVG и текст — по центру */
+  align-items: center;
   gap: 10px;
   margin: 0;
-  padding: 14px 0;                     /* отступы от линий */
+  padding: 14px 0;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   font-size: 16px;
@@ -896,7 +896,7 @@ input, textarea { font: inherit; }
   align-items: center;
   gap: 20px;
   padding-top: 20px;
-  border-top: 1px solid var(--border);     /* одна полоса сверху */
+  border-top: 1px solid var(--border);
   flex-wrap: wrap;
 }
 
@@ -913,9 +913,9 @@ input, textarea { font: inherit; }
   margin: 0;
   padding: 0;
   font-size: 16px;
-  color: var(--gray);                      /* серый цвет */
+  color: var(--gray);        
   line-height: 1.4;
-  border: none;                            /* никаких полосок */
+  border: none;
 }
 
 .checkout-footer__icon {

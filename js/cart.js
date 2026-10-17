@@ -223,7 +223,7 @@ function bindEvents() {
     if (!productEl) return;
 
     const id = Number(productEl.dataset.id);
-    const action = btn.dataset.action;       // ← теперь всегда определён
+    const action = btn.dataset.action;
     const item = cart.find(i => i.id === id);
     const p = getProduct(id);
     if (!item || !p) return;
